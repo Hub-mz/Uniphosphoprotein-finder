@@ -2,7 +2,7 @@
 
 This is a MATLAB script used to identify uniquely phosphorylated proteins in calcineurin inhibitor pimecrolimus (Pim) treated human melanoma MeWo cells. 
 
-Step 1. Put all files under the same folder
+Step 1. Put all files (except README.MD) under the same folder
 Step 2. Run MZ_Readfiles_v3.m
 	(a) The program reads data from the ‘Proteins’ sheet in the 6 excel files, 
 	(b) calls "MZ_NoDupNames_from_facility_file.m" to extract protein ID from column B, spectra from column G, unique peptide from column H, modified peptides from column I, and parse the data.
